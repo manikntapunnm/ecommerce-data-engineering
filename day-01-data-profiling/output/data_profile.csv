@@ -1,0 +1,15 @@
+column_name,data_type,row_count,missing_values,unique_values
+order_id,int64,10000,0,10000
+order_date,datetime64[us],10000,0,365
+customer_id,int64,10000,0,20
+customer_name,str,10000,0,20
+product_id,int64,10000,0,30
+product_name,str,10000,0,30
+category,str,10000,0,5
+quantity,int64,10000,0,5
+unit_price,float64,10000,0,9966
+discount,int64,10000,0,6
+city,str,10000,0,20
+state,str,10000,0,11
+country,str,10000,0,1
+payment_method,str,10000,0,5

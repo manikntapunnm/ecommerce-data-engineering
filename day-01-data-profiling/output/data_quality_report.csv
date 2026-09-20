@@ -1,0 +1,19 @@
+check_name,status,value
+Missing values - order_id,PASS,0
+Missing values - order_date,PASS,0
+Missing values - customer_id,PASS,0
+Missing values - customer_name,PASS,0
+Missing values - product_id,PASS,0
+Missing values - product_name,PASS,0
+Missing values - category,PASS,0
+Missing values - quantity,PASS,0
+Missing values - unit_price,PASS,0
+Missing values - discount,PASS,0
+Missing values - city,PASS,0
+Missing values - state,PASS,0
+Missing values - country,PASS,0
+Missing values - payment_method,PASS,0
+Duplicate order IDs,PASS,0
+Invalid quantity,PASS,0
+Invalid unit price,PASS,0
+Invalid discount,PASS,0
