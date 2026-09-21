@@ -1,0 +1,19 @@
+check_name,before_value,after_value,status,details
+Input row count,10000.0,10000,PASS,Rows in raw dataset compared with final cleaned dataset.
+Input column count,14.0,17,PASS,Final dataset contains original columns plus calculated columns.
+Missing values,0.0,0,PASS,Missing-value validation after cleaning.
+Duplicate complete rows,0.0,0,PASS,Duplicate complete rows were removed.
+Duplicate order IDs,0.0,0,PASS,Order IDs must uniquely identify orders.
+Invalid order IDs,0.0,0,PASS,Order IDs must be greater than zero.
+Invalid customer IDs,0.0,0,PASS,Customer IDs must be greater than zero.
+Invalid product IDs,0.0,0,PASS,Product IDs must be greater than zero.
+Invalid quantity,0.0,0,PASS,Quantity must be greater than zero.
+Invalid unit price,0.0,0,PASS,Unit price cannot be negative.
+Invalid discount,0.0,0,PASS,Discount must be between 0 and 100 percent.
+Invalid order dates,0.0,0,PASS,Order dates must be valid dates.
+Negative net amounts,0.0,0,PASS,Net amount must not be negative.
+Calculated gross amount,,235070686.68,PASS,"gross_amount = quantity * unit_price, rounded to two decimals."
+Calculated discount amount,,20704631.76,PASS,"discount_amount = gross_amount * discount / 100, rounded to two decimals."
+Calculated net amount,,214366054.92,PASS,"net_amount = gross_amount - discount_amount, rounded to two decimals."
+Unrounded revenue reconciliation,,214366057.77,PASS,Revenue calculated using the Day 1 business formula before transaction-level rounding.
+Transaction rounding difference,,-2.85,PASS,Difference caused by rounding individual transaction amounts to two decimal places.
