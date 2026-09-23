@@ -24,3 +24,6 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.log
+
+day-03-python-etl/output/
+day-03-python-etl/logs/
