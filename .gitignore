@@ -27,3 +27,7 @@ Thumbs.db
 
 day-03-python-etl/output/
 day-03-python-etl/logs/
+
+# Day 4 generated files
+day-04-incremental-etl/logs/
+day-04-incremental-etl/output/
